@@ -1,0 +1,79 @@
+/* 
+selector { property: value; }
+*/
+
+/********************************* Tag Selectors ********************************/
+
+body {
+    background-color: #EAF6F6;
+}
+
+h1 {
+    color: #99BBAD;
+}
+
+h2 {
+    color: #66BFBF;
+}
+
+hr {
+    border-color: gray;
+    border-style: none;
+    border-top-style: dotted;
+    border-width: 5px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    margin-left: 12%;
+    width: 12%;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+td { 
+    padding: 5px;
+}
+
+a {
+    padding: auto;
+}
+
+/* psuedo class */
+a:hover {
+    font-size: 150%;
+}
+
+/* psuedo class */
+h1:hover, h2:hover {
+    color: bisque;
+}
+
+/******************************* Class Selectors ********************************/
+
+/*
+
+.class { 
+    backrgound-color: red; 
+}
+
+*/
+
+
+/******************************** Id Selectors **********************************/
+
+/*
+
+#id { 
+    color: blue; 
+}
+
+Can only have use one specific id per page, meaning each id paired with an 
+element must be unique for that particular html page. Also, cannot have more 
+than one id selector for the same element, unlike class selectors. 
+
+*/
+
+#profile-photo {
+    border-radius: 50%;
+}

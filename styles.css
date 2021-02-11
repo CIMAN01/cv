@@ -46,7 +46,7 @@ a:hover {
 
 /* psuedo class */
 h1:hover, h2:hover {
-    color: bisque;
+    color: #ebd8b7;
 }
 
 /******************************* Class Selectors ********************************/
